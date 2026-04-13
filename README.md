@@ -1,16 +1,33 @@
-# React + Vite
+# 🚀 Vendor Management Portal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, high-performance Enterprise Vendor Management Dashboard built with **React**, **PrimeReact**, and **Chart.js**. This portal allows users to manage vendor data efficiently with real-time analytics and a clean UI.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **📊 Interactive Analytics:** Visualize vendor data using Bar and Pie charts (Monthly Spend & Status Ratio).
+- **📋 Smart DataTable:** Advanced table features like pagination, sorting, and global search.
+- **➕ Vendor Management:** Seamlessly add new vendors with real-time state updates.
+- **🔔 Toast Notifications:** Instant feedback for success/error actions using PrimeReact Toast.
+- **📱 Responsive Design:** Fully responsive layout built with Tailwind CSS.
+- **🔍 Global Search:** Filter through vendor lists instantly.
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend:** React.js (Vite)
+- **UI Library:** PrimeReact
+- **Styling:** Tailwind CSS
+- **Charts:** Chart.js & React-Chartjs-2
+- **Icons:** PrimeIcons
+- **Backend (Mock):** JSON Server (REST API)
 
-## Expanding the ESLint configuration
+## 🚀 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Follow these steps to run the project locally:
+
+### 1. Clone the repository
+```bash
+git clone [https://github.com/TanyaVerma24/Vendor-Portal.git](https://github.com/TanyaVerma24/Vendor-Portal.git)
+cd vendor-portal
+npm install
+npx json-server --watch db.json --port 5000
+npm run dev
