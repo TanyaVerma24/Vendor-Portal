@@ -24,9 +24,9 @@ A modern, high-performance Enterprise Vendor Management Dashboard built with **R
 
 Follow these steps to run the project locally:
 
-### 1. Clone the repository
+### 1. Run the Project
 ```bash
-git clone [https://github.com/TanyaVerma24/Vendor-Portal.git](https://github.com/TanyaVerma24/Vendor-Portal.git)
+git clone [https://github.com/TanyaVerma24/Vendor-Portal.git]
 cd vendor-portal
 npm install
 npx json-server --watch db.json --port 5000
